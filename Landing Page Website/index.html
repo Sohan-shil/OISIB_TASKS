@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <section id="header">
+      <div class="logo">
+        <img id="header-img" src="logo.png" alt=" logo" />
+      </div>
+
+      <div>
+        <ul id="nav-bar">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About Us</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          <div id="cross">
+            <i  class="fa-solid fa-xmark"></i>
+        </div>
+        </ul>
+      </div>
+      <div id="hamburger">
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+    </section>
+
+    <section id="start">
+      <h2>Ghar ka Khana, is not that far</h2>
+      <form id="form">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-home"></i></div>
+          <div class="content">
+            <h2> Premium Home Taste</h2>
+            <p>
+                Enjoy the finest home-cooked meals delivered to your doorstep. Our chefs prepare delicious dishes with love and care.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="content">
+            <h2>Fast Delivery</h2>
+            <p>
+                Experience quick and reliable delivery services. Your meals will arrive fresh and on time, ensuring a delightful dining experience.
+            </p>
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-check"></i>
+          </div>
+          <div class="content">
+            <h2>Quality Assurance</h2>
+            <p>
+                We prioritize the quality and safety of your food. Our ingredients are carefully sourced to provide you with the best culinary experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Our mission is to redefine your culinary experience by delivering the essence of home-cooked meals right to your doorstep. With a rich history rooted in a love for food and a commitment to quality, we take pride in offering you more than just a meal; we offer a taste of home.
+    
+            Our team of talented chefs and dedicated food enthusiasts work tirelessly to create a diverse menu that caters to your unique tastes and preferences. We believe that food is not just nourishment; it's an experience that brings people together, evokes memories, and fills your senses with delight.
+    
+            Quality is our cornerstone. We source the finest ingredients, and each dish is crafted with precision and care. Every bite should be a symphony of flavors, a journey through taste, and a celebration of your palate.
+    
+            Convenience is at the heart of our service. Whether you're a busy professional, a family looking for delicious weeknight dinners, or someone seeking a break from cooking, we've got you covered. With easy online ordering and prompt delivery, we ensure that you spend more time savoring and less time preparing.
+    
+            Thank you for choosing Mummy's Kitchen as your culinary partner. Join us in this gastronomic adventure, and let us make your dining experience truly unforgettable.
+        </p>
+      </section>
+
+      <section id="pricing">
+        <div class="product" id="meal">
+            <div class="level">Meals</div>
+            <h3>Starting from $99</h3>
+            <ol>
+                <li>Classic Spaghetti Bolognese</li>
+                <li>Healthy Grilled Chicken Salad</li>
+                <li>Vegetarian Pad Thai</li>
+                <li>Gourmet Pizza Selection</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="salad-pickle">
+            <div class="level">Salads</div>
+            <h3>Starting from $19</h3>
+            <ol>
+                <li>Caesar Salad with Crispy Bacon</li>
+                <li>Greek Salad with Feta Cheese</li>
+                <li>Avocado and Quinoa Salad</li>
+                <li>Caprese Salad with Fresh Basil</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="deserts">
+            <div class="level">Desserts</div>
+            <h3>Starting from $49</h3>
+            <ol>
+                <li>Rich Chocolate Fudge Cake</li>
+                <li>Freshly Baked Apple Pie</li>
+                <li>Tiramisu with Espresso Soaked Ladyfingers</li>
+                <li>Fruit Tart with Seasonal Berries</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+    
+        <div class="product" id="drinks">
+            <div class="level">Beverages</div>
+            <h3>Starting from $9</h3>
+            <ol>
+                <li>Coca-Cola Classic</li>
+                <li>Pepsi Cola</li>
+                <li>Freshly Brewed Coffee</li>
+                <li>Strawberry Lemonade</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+    </section>
+    
+
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2023, Mummy's Kitchen</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
